@@ -16,7 +16,7 @@ router.post('/',
  //validate inputs
     check('name', 'Name is required').not().isEmpty(), 
     check('email', 'Please include a valid email').isEmail(),
-    check('password', 'Please eneter a password with 6 or more characters').isLength({ min: 6, max: 128 })
+    check('password', 'Please enter a password with 6 or more characters').isLength({ min: 6, max: 128 })
 , 
 async (req, res) => {
     const errors = validationResult(req);
