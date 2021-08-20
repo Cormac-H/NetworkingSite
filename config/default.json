@@ -1,0 +1,4 @@
+{
+    "mongoURI": "mongodb+srv://cormach:KbP7Pat5M8xjPgY@devconnect.v4qr4.mongodb.net/DevConnect?retryWrites=true&w=majority",
+    "jwtSecret": "secretToken"
+}
